@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrstion Form</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Enrollment Form</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form_section">
+                <table>
+                    <tr>
+                        <td class="input"><label for="name">Name</label></td>
+                        <td class="margin_input "><input id="name" placeholder="e.g. John doe" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="input"><label for="email">Email</label></td>
+                        <td class="margin_input"><input id="email" placeholder="e.g. example@gmail.com" type="email"></td>
+                    </tr>
+                    <tr>
+                        <td class="input"><label for="website">Website</label></td>
+                        <td class="margin_input"><input id="website" placeholder="www.johndoe.com" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="input"><label for="img-link">Image link</label></td>
+                        <td class="margin_input "><input id="image_link" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td style="display:flex; align-items: flex-start;"><label for="gender"></label>Gender</td>
+                        <td class="margin_input" id="gender">
+                            <input type="radio" name="gen" id="M"> Male <br>
+                            <input type="radio" name="gen" id="F"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="skills" id="skills">Skills</label></td>
+                        <td class="margin_input">
+                            <input type="checkbox" name="" id="Java">Java
+                            <input type="checkbox" name="" id="HTML">HTML
+                            <input type="checkbox" name="" id="CSS">CSS
+                        </td>
+                    </tr>
+                </table>
+                <input id="submit" class="btn" type="submit" value="Enroll Student">
+                <input id="clear" type="button" value="Clear" onclick="clearAll()">
+            </div>
+            <div class="v_line"></div>
+            <div class="display_section">
+                <table width="100%">
+                    <h2>Enrolled Students</h2>
+                    <thead>
+                        <th width="60px">Select</th>
+                        <th style="text-align: left; padding-left: 1em;">Description</th>
+                        <th class="" width="100px">Image</th>
+                    </thead>
+                    <tbody id="tb2">
+                        <!-- <tr class="row-details">
+                            <td class="padding_details">
+                                <p id="p_name">John Doe</p>
+                                <p id="p_gen">Male</p>
+                                <p id="p_email">John.doe@gmail.com</p>
+                                <a id="a_website" href="#">www.johndoe.com</a>
+                                <p id="p_skills">Java, HTML</p>
+
+                            </td>
+                            <td class="img-col"><img src="" alt="" width="80px" height="80px"></td>
+                        </tr> -->
+                    </tbody>
+
+                </table>
+                <input type="button" value="Delete" onclick="delete_details()">
+                <input type="button" value="Edit">
+            </div>
+        </div>
+    </main>
+    <script src="/Registration_Form/javascript/script.js"></script>
+</body>
+
+</html>
