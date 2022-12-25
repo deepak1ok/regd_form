@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: (https://github.com/deepak1ok/LGM-VIP.git)
+- Solution URL: (https://github.com/deepak1ok/regd_form.git)
 - Live Site URL: (https://regd-form-deepak1ok.netlify.app/)
 
 ## My process
