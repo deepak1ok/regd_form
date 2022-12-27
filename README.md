@@ -21,8 +21,14 @@
 
 ### Links
 
+<<<<<<< HEAD
 - Solution URL: (https://github.com/deepak1ok/regd_form.git)
 - Live Site URL: (https://regd-form-deepak1ok.netlify.app/)
+=======
+- Solution URL: [solution URL here](https://github.com/deepak1ok/LGM-VIP.git)
+- Live Site URL: [live site URL here](https://regd-form-deepak1ok.netlify.app/)
+
+>>>>>>> 9cf7745 ( update script.js)
 
 ## My process
 
@@ -60,6 +66,6 @@ function validateEmail(email) {
 
 ## Author
 
-- Frontend Mentor - (https://www.frontendmentor.io/profile/deepak1ok)
-- Twitter - (https://twitter.com/deepak10460)
+- Frontend Mentor - [@deepak1ok](https://www.frontendmentor.io/profile/deepak1ok)
+- Twitter - [@deepak10460](https://twitter.com/deepak10460)
 
